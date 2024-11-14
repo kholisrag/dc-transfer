@@ -2,6 +2,7 @@ package dataplane
 
 import (
 	_ "github.com/doublecloud/transfer/pkg/providers/airbyte"
+	_ "github.com/doublecloud/transfer/pkg/providers/bigquery"
 	_ "github.com/doublecloud/transfer/pkg/providers/clickhouse"
 	_ "github.com/doublecloud/transfer/pkg/providers/coralogix"
 	_ "github.com/doublecloud/transfer/pkg/providers/datadog"
