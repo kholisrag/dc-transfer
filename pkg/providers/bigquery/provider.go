@@ -16,7 +16,7 @@ import (
 func init() {
 	gob.Register(new(BigQueryDestination))
 	providers.Register(ProviderType, New)
-	abstract.RegisterProviderName(ProviderType, "Coralogix")
+	abstract.RegisterProviderName(ProviderType, "Bigquery")
 	model.RegisterDestination(ProviderType, destinationModelFactory)
 }
 

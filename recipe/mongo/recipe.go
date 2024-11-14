@@ -12,7 +12,6 @@ import (
 	"github.com/blang/semver/v4"
 	"github.com/doublecloud/transfer/library/go/core/xerrors"
 	"github.com/doublecloud/transfer/library/go/slices"
-	"github.com/doublecloud/transfer/library/go/test/recipe"
 	"github.com/doublecloud/transfer/library/go/test/yatest"
 	"github.com/doublecloud/transfer/pkg/util"
 	"github.com/doublecloud/transfer/recipe/mongo/pkg/binurl"
